@@ -1,0 +1,14 @@
+
+### Cadastrar uma tarefa
+POST http://localhost:8080/tarefas
+Content-Type: application/json
+
+{
+  "nome": "Estudar Java",
+  "descricao": "Desenvolver o sistema To-Do List",
+  "realizado": false,
+  "prioridade": "ALTA"
+}
+
+### Listar todas as tarefas
+GET http://localhost:8080/tarefas
